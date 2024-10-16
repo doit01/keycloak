@@ -4,7 +4,15 @@ Keycloak是一个开源的身份认证和授权管理系统，它提供了一系
 idToken是身份令牌，包含有关用户身份验证的信息，例如用户ID和用户名。idToken是通过OpenID Connect协议发出的，用于验证用户身份和授权访问资源。
 accessToken是访问令牌，包含有关用户授权的信息，例如授权范围和过期时间。accessToken是通过OAuth 2.0协议发出的，用于访问受保护的资源。
 
+新建realm
+realm领域，即用户池的概念，即realm下可以新建多个client（客户端，即需要认证的应用），
+即在同一个realm下的不同client可以共享realm下的用户信息，
+也就是说我们realm下的同一个用户可以在realm下的不同client进行登录（SSO）
+————————————————
 
+                            贺公子之数据科学与艺术，欢迎关注与点赞、留言，本文为博主原创文章，未经博主允许不得转载。
+                        
+原文链接：https://blog.csdn.net/qq_31532979/article/details/140794828
 
 OpenID Connect
 基于OAuth 2.0协议，用于身份验证和授权。
